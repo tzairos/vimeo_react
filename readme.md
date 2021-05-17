@@ -7,6 +7,7 @@ To run project,
 - install dependencies.  `npm install` in the project root folders
 - create a `.env` file which provides your Vimeo api information before running application
 - add VIMEO_CLIENT_ID, VIMEO_CLIENT_SECRET, VIMEO_CLIENT_TOKEN variables to `.env` file .
+
 It uses
 
 - React
