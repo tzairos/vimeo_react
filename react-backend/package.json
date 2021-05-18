@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "set PORT=3005 && node ./bin/www"
+    "start": "cross-env PORT=3005  node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,5 +15,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "vimeo": "^2.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }

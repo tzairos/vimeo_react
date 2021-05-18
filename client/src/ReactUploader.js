@@ -9,6 +9,7 @@ const ReactUploader = (props) => {
         id: 59777392,
         width: 640,
         controls:false,
+        autoplay:true,
         background:true}
     const [videoId, setVideoId] = useState();
   const player= useRef();
